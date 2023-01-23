@@ -23,7 +23,7 @@ This project provides a solution for organizing media files in a directory by gr
 5. The script will install the required python modules in a virtual environment, activate the environment, run the main script and organize the files in the directory specified on the script, then it will deactivate the environment.
 
 ### Output
-The script will create a new directory named `organized_media` in the same directory level as the source directory. Inside it, the files will be grouped by directories corresponding to the date the files were created and within each of those, organized by either video, image, or other media types.
+The script will create a new directory named `organized_media` in the same directory level as the source directory. Inside it, the files will be grouped by directories corresponding to the date the files were created and within each of those, organized by video, image, audio, pdfs, ms word, or other media types.
 
 ### Note
 - The script will copy the files and not move them from their original location.
