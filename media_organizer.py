@@ -37,8 +37,8 @@ def organize_media(src_dir):
     total_size = 0
     total_files = 0
 
-    for dir_path, dir_names, file_names in tqdm(os.walk(src_dir), desc="Progress", position=0, leave=True)):
-        for file in tqdm(file_names, desc="Progress", position=0, leave=True)):
+    for dir_path, dir_names, file_names in tqdm(os.walk(src_dir), desc="Progress", position=0, leave=True):
+        for file in tqdm(file_names, desc="Progress", position=0, leave=True):
 
             # Get the full path of the file
             file_path = os.path.join(dir_path, file)
