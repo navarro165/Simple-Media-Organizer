@@ -64,6 +64,12 @@ def organize_media(src_dir):
                     media_type = 'images'
                 elif file_mimetype.startswith('video/'):
                     media_type = 'videos'
+                elif file_mimetype.startswith('audio/'):
+                    media_type = 'audio'
+                elif file_mimetype.startswith('application/pdf'):
+                    media_type = 'pdfs'
+                elif file_mimetype.startswith('application/msword'):
+                    media_type = 'msdocs'
                 else:
                     media_type = 'others'
 
