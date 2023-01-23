@@ -85,6 +85,5 @@ def organize_media(src_dir):
                 total_size += os.path.getsize(new_file_path)
                 total_files += 1
 
-    # Print the number of files copied and the size of the new organized directory
     print(f"{total_files} files have been copied.")
     print(f"The size of the new organized directory is {total_size / 1024 ** 2:.2f} MB.")
