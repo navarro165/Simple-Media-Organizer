@@ -27,13 +27,3 @@ The script will create a new directory named `organized_media` in the same direc
 
 ### Note
 - The script will copy the files and not move them from their original location.
-
-### Troubleshooting
-- Make sure that you are using Python 3 and have the required modules installed
-- Make sure the script_path variable in the bash script is set correctly, to the location of your main.py file.
-- Make sure you have the execution permissions on the script file.
-- Double check that the path you have entered for the source directory is correct.
-- Make sure you have the virtualenv module installed in your system
-
-### Conclusion
-This script can be a useful tool for keeping your media files organized and easily accessible. Feel free to modify the script to suit your specific needs.
